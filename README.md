@@ -8,14 +8,10 @@ PPLS, or Professional Programming Language Shell, is a very unusual programming 
 
 PPLS is Stable and amazing for configuration, and it is easy to learn; you can make a full script in just a few lines 
 
-Example script📃
-```
-#showtermscript[true]
-shellprint_pt[TEST]
-shellfunc-shellname[TEST]
-Preetfunc_[TEST]
-top [Shell]
-```
+## commands 📃
+
+[Commands](Commands)
+
 How to download with Git
 ```
 git clone https://github.com/pi-40/PPLS-Lang
