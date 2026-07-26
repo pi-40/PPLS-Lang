@@ -1,4 +1,4 @@
-from sly import Lexer, Parser
+from sly import Lexer, Parser, _
 import os
 import shutil
 import subprocess
