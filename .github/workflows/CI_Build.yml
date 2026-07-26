@@ -1,0 +1,35 @@
+name: CI Build
+
+# Triggers the workflow on any push or pull request to the main branch
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Fetch the repository code
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    # Step 2: Set up your environment (Example: Node.js)
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20' # Specify your preferred version
+
+    # Step 3: Install dependencies
+    - name: Install Dependencies
+      run: npm ci
+
+    # Step 4: Run your build or compilation step
+    - name: Run Build
+      run: npm run build
+
+    # Step 5: Execute your tests
+    - name: Run Tests
+      run: npm test
