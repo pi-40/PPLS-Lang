@@ -26,4 +26,4 @@ If you downloaded it from the terminal using Git, it will download the root of t
 
 ## License
 This software is licensed under the Apache-2.0 license
-[LICENSE](Apache-2.0)
+[Apache-2.0](LICENSE)
