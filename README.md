@@ -1,5 +1,7 @@
 Introduction: This repository is for PPLS.
 
+[![Python 3.9](https://img.shields.io/badge/python-3.9-blue)](https://www.python.org/)
+
 ## What is PPLS?
 
 PPLS, or Professional Programming Language Shell, is a unique programming language that is versatile, open-source, and reliable.
@@ -13,7 +15,7 @@ PPLS is Stable and amazing for configuration, and it is easy to learn; you can m
 This .md has every command for the shell
 [Commands](Commands.md)
 
-How to download with Git
+## How to download with Git
 ```
 git clone https://github.com/pi-40/PPLS-Lang
 ```
