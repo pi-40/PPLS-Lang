@@ -1,8 +1,8 @@
-Introduction: for the repository for PPLS.
+Introduction: This repository is for PPLS.
 
 ## What is PPLS?
 
-PPLS, or Professional Programming Language Shell, is a very unusual programming language that is versatile, libre, and reliable.
+PPLS, or Professional Programming Language Shell, is a unique programming language that is versatile, open-source, and reliable.
 
 ## Justification
 
@@ -10,6 +10,7 @@ PPLS is Stable and amazing for configuration, and it is easy to learn; you can m
 
 ## commands 📃
 
+This .md has every command for the shell
 [Commands](Commands.md)
 
 How to download with Git
