@@ -1,3 +1,4 @@
+# flake8: noqa: F821
 from sly import Lexer, Parser, _
 import os
 import shutil
