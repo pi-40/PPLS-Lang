@@ -10,7 +10,7 @@ PPLS is Stable and amazing for configuration, and it is easy to learn; you can m
 
 ## commands 📃
 
-[Commands](Commands)
+[Commands](Commands.md)
 
 How to download with Git
 ```
